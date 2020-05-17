@@ -4,6 +4,7 @@
 	width: 100%;
 	z-index: 10 !important;
 	background: color-bg(header);
+	background-color: color-bg(nav-bar);
 
 	+ .site-content {
 
@@ -14,6 +15,9 @@
 
 	.brand {
 		margin-right: $header-nav--padding-h;
+		height: 80px;
+		width: 80px;
+		margin-top: $header-nav--padding-h;
 	}	
 }
 
