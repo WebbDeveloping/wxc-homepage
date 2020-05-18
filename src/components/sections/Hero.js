@@ -61,8 +61,8 @@ const Hero = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              <span className='text-color-primary'>X-PAY</span> is the new
-              secure way to pay
+              <span className='text-color-primary'>XPAY</span> is the new secure
+              way to pay
             </h1>
             <div className='container-xs'>
               <p
@@ -71,6 +71,7 @@ const Hero = ({
               >
                 We take your security seriously
               </p>
+              <br />
               <div className='reveal-from-bottom' data-reveal-delay='600'>
                 <ButtonGroup>
                   {/* <Link to='/contact'> */}

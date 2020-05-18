@@ -11,7 +11,7 @@ const Consumer = () => {
   return (
     <>
       {/* <LearnMore invertMobile topDivider imageFill /> */}
-      <ConsumerTiles className='illustration-section-01' />
+      <ConsumerTiles className='illustration-section-01 reveal-from-top' />
       <PhoneAppSection topDivider className='illustration-section-02' />
       <GetApp className='illustration-section-01' />
       <Cta split />

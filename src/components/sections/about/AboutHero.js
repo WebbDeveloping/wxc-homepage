@@ -10,7 +10,7 @@ const defaultProps = {
   ...SectionProps.defaults
 };
 
-const ContactHero = ({
+const AboutHero = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -44,16 +44,9 @@ const ContactHero = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Get Started With <span className='text-color-primary'>XPAY</span>
+              About{' '}
+              <span className='text-color-primary'>World XChange Inc</span>
             </h1>
-            <div className='container-xs'>
-              <p
-                className='m-0 mb-32 reveal-from-bottom'
-                data-reveal-delay='400'
-              >
-                Contact our professional sales team
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -61,7 +54,7 @@ const ContactHero = ({
   );
 };
 
-ContactHero.propTypes = propTypes;
-ContactHero.defaultProps = defaultProps;
+AboutHero.propTypes = propTypes;
+AboutHero.defaultProps = defaultProps;
 
-export default ContactHero;
+export default AboutHero;

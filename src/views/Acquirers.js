@@ -13,7 +13,7 @@ const Acquirer = () => {
   return (
     <>
       <MerchantTiles
-        className='illustration-section-01'
+        className='illustration-section-01 reveal-from-top'
         title={'Add XPay to your product and service offerings,'}
         paragraph={
           'strengthen current relationships and exponentially grow your client base.'

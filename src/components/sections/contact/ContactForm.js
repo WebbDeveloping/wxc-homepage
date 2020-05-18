@@ -32,7 +32,8 @@ export default function ContactForm({
     'testimonial-inner section-inner',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
-    'bg-color-dark'
+    'bg-color-dark',
+    'reveal-from-top'
   );
 
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');

@@ -36,7 +36,8 @@ const AcquirerTiles = ({
   const innerClasses = classNames(
     'features-tiles-inner section-inner',
     topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
+    bottomDivider && 'has-bottom-divider',
+    'reveal-from-top'
   );
 
   const tilesClasses = classNames(

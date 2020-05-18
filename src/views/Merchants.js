@@ -11,7 +11,7 @@ const Merchants = () => {
   return (
     <>
       <MerchantTiles
-        className='illustration-section-01'
+        className='illustration-section-01 reveal-from-top'
         title={'Show You Care'}
         paragraph={'By providing your customers with a private way to pay.'}
         tileOneHead={'ACCEPT XPAY ONLINE'}

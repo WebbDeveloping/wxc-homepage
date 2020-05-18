@@ -73,14 +73,10 @@ const NorthRollOut = ({
                 here. If you are a merchant, acquirer or banker with a question,
                 you may contact us using the link below.
               </p>
+              <br />
               <div className='reveal-from-bottom' data-reveal-delay='600'>
                 <ButtonGroup>
-                  <Button
-                    tag='a'
-                    color='primary'
-                    wideMobile
-                    href='https://cruip.com/'
-                  >
+                  <Button tag='a' color='primary' wideMobile href='/contact'>
                     PROFESSIONAL CONTACT
                   </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">

@@ -32,7 +32,14 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
           )}
         >
           <div className='footer-top space-between text-xxs'>
-            <Logo />
+            <div className='flex-row'>
+              <Logo className='pr-16' />
+              <div>
+                <p className='m-0'>PO Box 7492 Loveland, Colorado 80537 USA </p>
+                <p className='m-0'> hello@world-xchange.com</p>
+                <p className='m-0'> 833-473-XPAY (9729)</p>
+              </div>
+            </div>
             <FooterSocial />
           </div>
           <div className='footer-bottom space-between text-xxs invert-order-desktop'>

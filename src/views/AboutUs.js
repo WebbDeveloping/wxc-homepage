@@ -1,36 +1,23 @@
 import React from 'react';
 // import sections
-import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
 import LearnMore from '../components/sections/LearnMore';
-import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 import HeroNoImg from '../components/sections/HeroNoImg';
-import AppDemo from '../components/sections/AppDemo';
-import XpayIsComing from '../components/sections/XpayIsComing';
-import NorthRollOut from '../components/sections/NorthRollOut';
+import AboutHero from '../components/sections/about/AboutHero';
+import NewsReleases from '../components/sections/about/NewsReleases';
 
 const AboutUs = () => {
   return (
     <>
-      <HeroNoImg className='illustration-section-01' />
-      {/* <Hero className='illustration-section-01' /> */}
-      {/* <FeaturesTiles /> */}
-      <LearnMore
-        invertMobile
-        topDivider
-        imageFill
-        // className='illustration-section-02'
-      />
-      {/* <AppDemo
+      {/* <HeroNoImg className='illustration-section-01' /> */}
+      <AboutHero className='illustration-section-01' />
+      <NewsReleases />
+      {/* <LearnMore
         invertMobile
         topDivider
         imageFill
         // className='illustration-section-02'
       /> */}
-      {/* <NorthRollOut /> */}
-      {/* <XpayIsComing topDivider /> */}
-      {/* <Testimonial topDivider /> */}
       <Cta split />
     </>
   );

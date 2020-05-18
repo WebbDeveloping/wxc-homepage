@@ -101,7 +101,7 @@ const FeaturesTiles = ({
                     {/* This patent-pending technology is so powerful, transactions
                     are guaranteed to be fraud-proof at the most dangerous part
                     of every purchase, merchant handling. */}
-                    With X-PAY we keep your card away from danger and merchant
+                    With XPAY we keep your card away from danger and merchant
                     handling.
                   </p>
                 </div>
@@ -130,7 +130,7 @@ const FeaturesTiles = ({
                     you can leave your cards at home or in a safety deposit box
                     where something so dangerous belongs. */}
                     Your accounts are only as secure as your wallet. Leave your
-                    cards at home and start paying with X-PAY.
+                    cards at home and start paying with XPAY.
                   </p>
                 </div>
               </div>
