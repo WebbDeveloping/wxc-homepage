@@ -114,7 +114,7 @@ const FeaturesTiles = ({
             >
               <div className='tiles-item-inner'>
                 <div className='features-tiles-item-header flex-col-center'>
-                  <div className='mb-16'>
+                  <div className='mb-16 ml-32'>
                     <Image
                       src={require('./../../assets/Svg/lock.svg')}
                       alt='Features tile icon 03'

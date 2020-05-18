@@ -131,6 +131,11 @@
   }
 }
 
+// /background color
+.bg-color-dark {
+  background-color: get-color(dark, 2);
+}
+
 // Text transform
 .tt-u {
   text-transform: uppercase;

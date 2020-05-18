@@ -60,7 +60,7 @@ const XpayIsComing = ({
                   <h4>Consumers</h4>
                   <p className='text-sm mb-0 text-dark'>
                     <span className='testimonial-item-link'>
-                      <a href='#0'>Learn</a>
+                      <a href='/consumer'>Learn</a>
                     </span>{' '}
                     how you can get ready to use XPay where you shop.
                   </p>
@@ -74,7 +74,7 @@ const XpayIsComing = ({
                   <h4>MERCHANTS</h4>
                   <p className='text-sm mb-0 text-dark'>
                     <span className='testimonial-item-link'>
-                      <a href='#0'>Learn</a>
+                      <a href='/merchants'>Learn</a>
                     </span>{' '}
                     how to start accepting XPay and protecting your customers.
                   </p>
@@ -91,7 +91,7 @@ const XpayIsComing = ({
                   <h4>ACQUIRERS</h4>
                   <p className='text-sm mb-0 text-dark'>
                     <span className='testimonial-item-link'>
-                      <a href='#0'>Learn</a>
+                      <a href='/acquirer'>Learn</a>
                     </span>{' '}
                     how to make XPay available to all your merchants.
                   </p>
@@ -108,7 +108,7 @@ const XpayIsComing = ({
                   <h4>BANKERS</h4>
                   <p className='text-sm mb-0 text-dark'>
                     <span className='testimonial-item-link'>
-                      <a href='#0'>Learn</a>
+                      <a href='/bankers'>Learn</a>
                     </span>{' '}
                     how to issue your own branded XPay virtual cards.
                   </p>

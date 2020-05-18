@@ -1,15 +1,10 @@
 import React from 'react';
 import Cta from '../components/sections/Cta';
-import MerchantTiles from '../components/sections/merchants/MerchantTiles';
-import SalesFunnel from '../components/sections/merchants/SalesFunnel';
-import IntroPushSale from '../components/sections/merchants/IntroPushSale';
 import GuaranteedFraudProof from '../components/sections/merchants/GuaranteedFraudProof';
 import ProcessingFees from '../components/sections/merchants/ProcessingFees';
 import SimpleIntegration from '../components/sections/merchants/SimpleIntegration';
-import AcquirerTiles from '../components/sections/isos/AcquirerTiles';
-import CompetitiveAdvantage from '../components/sections/isos/CompetitiveAdvantage';
 import BankerTiles from '../components/sections/bankers/BankerTiles';
-import BankTiles from '../components/sections/bankers/BankTiles';
+// import BankTiles from '../components/sections/bankers/BankTiles';
 
 const Bankers = () => {
   return (
@@ -31,7 +26,6 @@ const Bankers = () => {
           'XPay is also extremely effective in eliminating transaction fraud over the phone.'
         }
       />
-      {/* <BankTiles /> */}
       <GuaranteedFraudProof />
       <ProcessingFees />
       <SimpleIntegration />

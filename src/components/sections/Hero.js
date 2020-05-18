@@ -73,15 +73,13 @@ const Hero = ({
               </p>
               <div className='reveal-from-bottom' data-reveal-delay='600'>
                 <ButtonGroup>
-                  <Button
-                    tag='a'
-                    color='primary'
-                    wideMobile
-                    href='https://world-xchange.com/index.php'
-                  >
+                  {/* <Link to='/contact'> */}
+                  <Button tag='a' color='primary' wideMobile href='/contact'>
                     Get started
                   </Button>
-                  <Link to='/About-Us'>
+                  {/* </Link>
+                  <br /> */}
+                  <Link to='/Article'>
                     <Button
                       tag='a'
                       color='dark'
