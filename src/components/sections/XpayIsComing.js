@@ -37,7 +37,6 @@ const XpayIsComing = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  // TODO: MAKE THIS NO WRAP on large, COLUMN SMALL
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
 
   const sectionHeader = {
@@ -113,15 +112,6 @@ const XpayIsComing = ({
                     how to issue your own branded XPay virtual cards.
                   </p>
                 </div>
-                {/* <div className='testimonial-item-footer text-xs mt-32 mb-0 has-top-divider'>
-                  <span className='testimonial-item-name text-color-high'>
-                    Ben Stafford
-                  </span>
-                  <span className='text-color-low'> / </span>
-                  <span className='testimonial-item-link'>
-                    <a href='#0'>AppName</a>
-                  </span>
-                </div> */}
               </div>
             </div>
           </div>

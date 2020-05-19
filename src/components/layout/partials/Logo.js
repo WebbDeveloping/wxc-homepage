@@ -3,30 +3,21 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Image from '../../elements/Image';
 
-const Logo = ({
-  className,
-  ...props
-}) => {
-
-  const classes = classNames(
-    'brand',
-    className
-  );
+const Logo = ({ className, ...props }) => {
+  const classes = classNames('brand', className);
 
   return (
-    <div
-      {...props}
-      className={classes}
-    >
-      <h1 className="m-0">
-        <Link to="/">
+    <div {...props} className={classes}>
+      <h1 className='m-0'>
+        <Link to='/'>
           <Image
             src={require('./../../../assets/images/wxc/logo_small.png')}
-            alt="Open"
+            alt='Open'
             width={128}
-            height={128} />
+            height={128}
+          />
         </Link>
-          {/* <Image
+        {/* <Image
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
             width={32}
@@ -35,6 +26,6 @@ const Logo = ({
       </h1>
     </div>
   );
-}
+};
 
 export default Logo;

@@ -38,10 +38,23 @@
   display: flex;
   flex-direction: row;
 }
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .flex-row-center {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.flex-row-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .flex-row-around {
   display: flex;
@@ -144,6 +157,9 @@
 // Images
 .image-full {
   width: 100%;
+}
+.max-width {
+  max-width: 100%;
 }
 
 .image-larger {
@@ -564,6 +580,9 @@ img.has-shadow {
 
 .w-100 {
   width: 100%;
+}
+.h-100 {
+  height: 100%;
 }
 
 @include media('<=medium') {

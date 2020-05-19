@@ -5,8 +5,12 @@
   .tiles-item-contact {
     max-width: 500px !important;
   }
-  .tiles-item-contact-w-800 {
-    max-width: 800px !important;
+  // .tiles-item-contact-w-800 {
+  //   max-width: 800px !important;
+  // }
+  .tiles-item-press {
+    min-width: 100% !important;
+    background: get-color(dark, 1);
   }
 }
 

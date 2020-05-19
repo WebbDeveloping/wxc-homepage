@@ -18,6 +18,7 @@ import Merchants from './views/Merchants';
 import Acquirer from './views/Acquirers';
 import Bankers from './views/Bankers';
 import Contact from './views/Contact';
+import Press from './views/Press';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -85,6 +86,12 @@ const App = () => {
             exact
             path='/contact'
             component={Contact}
+            layout={LayoutDefault}
+          />
+          <AppRoute
+            exact
+            path='/press'
+            component={Press}
             layout={LayoutDefault}
           />
         </Switch>

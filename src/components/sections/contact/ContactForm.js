@@ -175,7 +175,6 @@ export default function ContactForm({
                     <Input placeholder='Message' type='textarea' />
                   </div>
                   <br />
-
                   <br />
                   <Button
                     tag='a'

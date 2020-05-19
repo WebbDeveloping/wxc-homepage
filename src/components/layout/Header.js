@@ -136,6 +136,16 @@ const Header = ({
                         Bankers
                       </Link>
                     </li>
+                    <li>
+                      <Link to='/about-us' onClick={closeMenu}>
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to='/press' onClick={closeMenu}>
+                        Press
+                      </Link>
+                    </li>
                   </ul>
                   {!hideSignin && (
                     <ul className='list-reset header-nav-right'>

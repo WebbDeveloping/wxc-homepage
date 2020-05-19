@@ -112,7 +112,7 @@ const SalesFunnel = ({
                     along the path that leads to your store, or website since
                     this is where your products are displayed and where the
                     checkout is. With XPay, your checkout is in the palm of
-                    everyone's hand and
+                    everyone's hand and {' '}
                     <span className='text-color-primary'>
                       your product can be everywhere!
                     </span>

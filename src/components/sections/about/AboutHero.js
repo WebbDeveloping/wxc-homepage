@@ -18,6 +18,9 @@ const AboutHero = ({
   bottomDivider,
   hasBgColor,
   invertColor,
+  title,
+  paragraph,
+  press,
   ...props
 }) => {
   const outerClasses = classNames(
@@ -34,7 +37,6 @@ const AboutHero = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
-
   return (
     <section {...props} className={outerClasses}>
       <div className='container-sm'>
@@ -44,10 +46,11 @@ const AboutHero = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              About{' '}
-              <span className='text-color-primary'>World XChange Inc</span>
+              {' '}
+              {title}
             </h1>
           </div>
+          <p>{paragraph}</p>
         </div>
       </div>
     </section>

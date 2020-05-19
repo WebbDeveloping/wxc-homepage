@@ -153,7 +153,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_7.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_9.png')}
                   alt='Features tile icon 01'
                   width={'auto'}
                   height={'100%'}
@@ -169,7 +169,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_8.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_10.png')}
                   alt='Features tile icon 01'
                   width={'auto'}
                   height={'100%'}
@@ -185,7 +185,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_9.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_11.png')}
                   alt='Features tile icon 01'
                   width={'auto'}
                   height={'100%'}
@@ -201,7 +201,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_10.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_12.png')}
                   alt='Features tile icon 01'
                   width={'auto'}
                   height={'100%'}
@@ -217,7 +217,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_11.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_7.png')}
                   alt='Features tile icon 01'
                   width={'auto'}
                   height={'100%'}
@@ -233,7 +233,7 @@ const ImageGrid = ({
             >
               <div className='tiles-item-inner'>
                 <Image
-                  src={require('../../../assets/images/wxc/merch/merch_12.png')}
+                  src={require('../../../assets/images/wxc/merch/merch_8.png')}
                   alt='Features tile icon 01'
                   width={'100%'}
                   height={'auto'}
