@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
-import ButtonGroup from '../../elements/ButtonGroup';
-import Button from '../../elements/Button';
 import Image from '../../elements/Image';
-import Modal from '../../elements/Modal';
-import ImageGrid from './ImageGrid';
-const compImg = '../../../assets/images/wxc/icons/icon_computer.png';
 
 const propTypes = {
   ...SectionProps.types
@@ -54,7 +49,6 @@ const GuaranteedFraudProof = ({
   );
 
   return (
-    //   how do i remove the padding-top from this section
     <section {...props} className={outerClasses}>
       <div className='container-sm'>
         <div className={innerClasses}>
@@ -74,7 +68,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -93,7 +86,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -111,7 +103,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -129,7 +120,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -150,7 +140,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -168,7 +157,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -186,7 +174,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}
@@ -205,7 +192,6 @@ const GuaranteedFraudProof = ({
                 <div className='flex-row col-sm-center'>
                   <div className='mb-16'>
                     <Image
-                      //   src={require('../../../assets/images/wxc/icons/icon_checkshield.png')}
                       src={require('../../../assets/Svg/shield.svg')}
                       alt='Features tile icon 01'
                       width={48}

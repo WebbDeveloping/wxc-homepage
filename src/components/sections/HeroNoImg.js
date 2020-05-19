@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionProps.types
@@ -26,16 +24,6 @@ const HeroNoImg = ({
 }) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = e => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
-
-  const closeModal = e => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
-
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -56,12 +44,11 @@ const HeroNoImg = ({
       <div className='container-sm'>
         <div className={innerClasses}>
           <div className='hero-content'>
-          <h1
+            <h1
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Safe, Easy, {' '}
-              <span className='text-color-primary'>Private</span>
+              Safe, Easy, <span className='text-color-primary'>Private</span>
             </h1>
             <div className='container-xs'>
               <p

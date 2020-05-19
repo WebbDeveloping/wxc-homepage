@@ -91,10 +91,18 @@
 
 //font size
 .fs-50 {
-  font-size: 50px;
+  font-size: 50px !important;
 }
 .fs-16 {
   font-size: 16px;
+}
+
+//line height
+.lh-60 {
+  line-height: 60px !important;
+}
+.mw-none {
+  max-width: none !important;
 }
 
 // Text color
@@ -160,6 +168,9 @@
 }
 .max-width {
   max-width: 100%;
+}
+.sm-w-100 {
+  max-width: 100% !important;
 }
 
 .image-larger {

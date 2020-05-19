@@ -1,9 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../../utils/SectionProps';
-import SectionHeader from '../partials/SectionHeader';
 import Image from '../../elements/Image';
-// import '../../assets/css/icons.css';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -23,30 +21,12 @@ const TileSection = ({
   pushLeft,
   ...props
 }) => {
-  const outerClasses = classNames(
-    'features-tiles section',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
-
   const innerClasses = classNames(
     'features-tiles-inner section-inner pt-0',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap center-content',
-    pushLeft && 'push-left'
-  );
-
-  const sectionHeader = {
-    title: 'Show You Care',
-    paragraph: 'Providing your customers with a private way to pay.'
-  };
   const {
     tileOneHead,
     tileTwoHead,
@@ -60,7 +40,6 @@ const TileSection = ({
     <section {...props}>
       <div className='container'>
         <div className={innerClasses}>
-          {/* <SectionHeader data={sectionHeader} className='center-content' /> */}
           <div className='flex-row col-sm'>
             <div className='tiles-item reveal-from-bottom'>
               <div className='tiles-item-inner'>

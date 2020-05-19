@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
-import ButtonGroup from '../../elements/ButtonGroup';
-import Button from '../../elements/Button';
-import { Link } from 'react-router-dom';
-import MerchantTiles from './MerchantTiles';
-import FunnelTiles from './FunnelTiles';
 
 const propTypes = {
   ...SectionProps.types
@@ -88,7 +83,10 @@ const ProcessingFees = ({
                     <br />
                     <br />
                     <span className='fs-50 text-color-primary'>2.9%</span>
-                    <span className='fs-16 pb-4 text-color-primary'> + $0.30</span>
+                    <span className='fs-16 pb-4 text-color-primary'>
+                      {' '}
+                      + $0.30
+                    </span>
                     <br />
                     Per transaction, plus $0.00 fraud costs and $0.00 charge
                     back fee*.
@@ -106,7 +104,6 @@ const ProcessingFees = ({
           </div>
         </div>
       </div>
-      {/* <FunnelTiles /> */}
     </section>
   );
 };

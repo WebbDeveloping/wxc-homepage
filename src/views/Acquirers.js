@@ -1,12 +1,7 @@
 import React from 'react';
 import Cta from '../components/sections/Cta';
 import MerchantTiles from '../components/sections/merchants/MerchantTiles';
-import SalesFunnel from '../components/sections/merchants/SalesFunnel';
-import IntroPushSale from '../components/sections/merchants/IntroPushSale';
-import GuaranteedFraudProof from '../components/sections/merchants/GuaranteedFraudProof';
 import ProcessingFees from '../components/sections/merchants/ProcessingFees';
-import SimpleIntegration from '../components/sections/merchants/SimpleIntegration';
-import AcquirerTiles from '../components/sections/isos/AcquirerTiles';
 import CompetitiveAdvantage from '../components/sections/isos/CompetitiveAdvantage';
 
 const Acquirer = () => {

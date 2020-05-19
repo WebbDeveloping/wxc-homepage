@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
-import ButtonGroup from '../../elements/ButtonGroup';
-import Button from '../../elements/Button';
-import { Link } from 'react-router-dom';
-import MerchantTiles from './MerchantTiles';
 import FunnelTiles from './FunnelTiles';
 
 const propTypes = {
@@ -26,16 +22,6 @@ const IntroPushSale = ({
   ...props
 }) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = e => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
-
-  const closeModal = e => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
 
   const outerClasses = classNames(
     'hero section center-content',

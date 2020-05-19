@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
-import ButtonGroup from '../../elements/ButtonGroup';
-import Button from '../../elements/Button';
-import { Link } from 'react-router-dom';
 import SectionHeader from '../partials/SectionHeader';
-
-// import MerchantTiles from './MerchantTiles';
-import FunnelTiles from '../merchants/FunnelTiles';
-import TileSection from '../merchants/TileSection';
 import BankTiles from './BankTiles';
 
 const propTypes = {
@@ -40,15 +33,6 @@ const MerchantTiles = ({
     title,
     paragraph
   } = props;
-  const openModal = e => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
-
-  const closeModal = e => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
 
   const sectionHeader = {
     title: title,

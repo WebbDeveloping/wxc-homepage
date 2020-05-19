@@ -42,7 +42,7 @@ const Elevator = ({
     <section {...props} className={outerClasses}>
       <div className='container'>
         <div
-          className='tiles-item-press reveal-from-left'
+          className='tiles-item-press reveal-from-bottom'
           data-reveal-delay='200'
         >
           <div className='tiles-item-inner'>

@@ -23,16 +23,6 @@ const CompetitiveAdvantage = ({
 }) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = e => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
-
-  const closeModal = e => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
-
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -106,14 +96,6 @@ const CompetitiveAdvantage = ({
             >
               REAL ADVANTAGES MERCHANTS NEED
             </h1>
-            {/* <div className='container-xs'>
-              <p
-                className='m-0 mb-32 reveal-from-bottom'
-                data-reveal-delay='400'
-              >
-                in the merchant processing industry.
-              </p>
-            </div> */}
           </div>
           <div className='reveal-from-bottom text-left' data-reveal-delay='600'>
             <div className='flex-row col-sm  m-0'>

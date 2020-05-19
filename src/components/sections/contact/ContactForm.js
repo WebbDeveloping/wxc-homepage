@@ -1,7 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionTilesProps } from '../../../utils/SectionProps';
-import SectionHeader from '.././partials/SectionHeader';
 import Button from '../../elements/Button';
 import Image from '../../elements/Image';
 import Radio from '../../elements/Radio';
@@ -38,11 +36,6 @@ export default function ContactForm({
   );
 
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
-
-  const sectionHeader = {
-    title: 'Integration is Easy',
-    paragraph: ''
-  };
   return (
     <section {...props} className={outerClasses}>
       <div className='container'>

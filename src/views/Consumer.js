@@ -1,8 +1,6 @@
 import React from 'react';
 // import sections
-import LearnMore from '../components/sections/LearnMore';
 import Cta from '../components/sections/Cta';
-import HeroNoImg from '../components/sections/HeroNoImg';
 import ConsumerTiles from '../components/sections/ConsumerTiles';
 import PhoneAppSection from '../components/sections/PhoneAppSection';
 import GetApp from '../components/sections/GetApp';

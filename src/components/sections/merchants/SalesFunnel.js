@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
-import ButtonGroup from '../../elements/ButtonGroup';
-import Button from '../../elements/Button';
 import Image from '../../elements/Image';
-import Modal from '../../elements/Modal';
 import ImageGrid from './ImageGrid';
-const compImg = '../../../assets/images/wxc/icons/icon_computer.png';
-const carrot = require('../../../assets/images/wxc/icons/icon_carrot_stick.png');
 
 const propTypes = {
   ...SectionProps.types
@@ -106,13 +101,12 @@ const SalesFunnel = ({
             <div className='tiles-item-row reveal-from-bottom'>
               <div className='tiles-item-inner-row col-sm'>
                 <div className='features-tiles-item-content text-right justify-content-col mr-24'>
-                  {/* <h4 className='mt-0 mb-8 ta-c-mobile'>Something else</h4> */}
                   <p className='m-0 text-sm ta-c-mobile'>
                     All funnels assume you must prod your prospects carefully
                     along the path that leads to your store, or website since
                     this is where your products are displayed and where the
                     checkout is. With XPay, your checkout is in the palm of
-                    everyone's hand and {' '}
+                    everyone's hand and{' '}
                     <span className='text-color-primary'>
                       your product can be everywhere!
                     </span>

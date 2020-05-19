@@ -9,7 +9,6 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views
 import Home from './views/Home';
-import Test from './views/Test';
 import Article from './components/sections/Article';
 import HowTo from './components/sections/HowTo';
 import AboutUs from './views/AboutUs';

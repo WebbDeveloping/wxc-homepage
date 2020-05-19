@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../../utils/SectionProps';
-import SectionHeader from '.././partials/SectionHeader';
 import Image from '../../elements/Image';
 
 const propTypes = {
@@ -38,19 +37,12 @@ const ImageGrid = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  // TODO: MAKE THIS NO WRAP on large, COLUMN SMALL
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
-
-  const sectionHeader = {
-    title: 'XPAY IS COMING',
-    paragraph: 'Get Ready, Act Now!'
-  };
 
   return (
     <section {...props} className={outerClasses}>
       <div className='container'>
         <div className={innerClasses}>
-          {/* <SectionHeader data={sectionHeader} className='center-content' /> */}
           <div className={tilesClasses}>
             <div
               className='tiles-item-merchant reveal-from-right p-12 center-content'

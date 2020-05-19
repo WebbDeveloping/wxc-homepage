@@ -2,7 +2,6 @@ import React from 'react';
 // import sections
 import Cta from '../components/sections/Cta';
 import AboutHero from '../components/sections/about/AboutHero';
-import NewsReleases from '../components/sections/about/NewsReleases';
 import Elevator from '../components/sections/about/Elevator';
 import Founders from '../components/sections/about/Founders';
 
