@@ -52,7 +52,7 @@ const SimpleIntegration = ({
           <SectionHeader data={sectionHeader} className='center-content' />
           <div className='flex-row col-sm'>
             <div
-              className='tiles-item reveal-from-right'
+              className='tiles-item reveal-from-left'
               data-reveal-delay='200'
             >
               <div className='tiles-item-inner center-content'>
@@ -89,12 +89,7 @@ const SimpleIntegration = ({
                     </p>
                   </div>
                   <br />
-                  <Button
-                    tag='a'
-                    color='primary'
-                    wideMobile
-                    href='https://github.com/cruip/open-react-template/'
-                  >
+                  <Button tag='a' color='primary' wideMobile href='/contact'>
                     Learn More &#8594;
                   </Button>
                 </div>
@@ -102,7 +97,7 @@ const SimpleIntegration = ({
             </div>
 
             <div
-              className='tiles-item reveal-from-right'
+              className='tiles-item reveal-from-bottom'
               data-reveal-delay='200'
             >
               <div className='tiles-item-inner center-content'>
@@ -135,12 +130,7 @@ const SimpleIntegration = ({
                     </p>
                   </div>
                   <br />
-                  <Button
-                    tag='a'
-                    color='primary'
-                    wideMobile
-                    href='https://github.com/cruip/open-react-template/'
-                  >
+                  <Button tag='a' color='primary' wideMobile href='contact'>
                     Learn More &#8594;
                   </Button>
                   <br />
@@ -183,12 +173,7 @@ const SimpleIntegration = ({
                     </p>
                   </div>
                   <br />
-                  <Button
-                    tag='a'
-                    color='primary'
-                    wideMobile
-                    href='https://github.com/cruip/open-react-template/'
-                  >
+                  <Button tag='a' color='primary' wideMobile href='contact'>
                     Learn More &#8594;
                   </Button>
                   <br />

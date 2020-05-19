@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <>
       <AboutHero
-        className='illustration-section-01'
+        className='illustration-section-01 reveal-from-right'
         title={'About World XChange Inc'}
       />
       <NewsReleases />

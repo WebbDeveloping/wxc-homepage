@@ -10,7 +10,7 @@ const Press = () => {
   return (
     <>
       <AboutHero
-        className='illustration-section-01'
+        className='illustration-section-01 reveal-from-right'
         title={`"It's about time someone figured this out!"`}
         paragraph={
           'The most common response we hear from new partners and clients.'

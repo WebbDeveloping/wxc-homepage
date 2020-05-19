@@ -81,12 +81,7 @@ const TileSection = ({
                   <p className='m-0 text-sm'>{tileOneText}</p>
                 </div>
                 <br />
-                <Button
-                  tag='a'
-                  color='primary'
-                  wideMobile
-                  href='https://world-xchange.com/index.php'
-                >
+                <Button tag='a' color='primary' wideMobile href='/contact'>
                   Get started
                 </Button>
               </div>
@@ -112,12 +107,7 @@ const TileSection = ({
                   <p className='m-0 text-sm'>{tileTwoText}</p>
                 </div>
                 <br />
-                <Button
-                  tag='a'
-                  color='primary'
-                  wideMobile
-                  href='https://world-xchange.com/index.php'
-                >
+                <Button tag='a' color='primary' wideMobile href='/contact'>
                   Get started
                 </Button>
               </div>

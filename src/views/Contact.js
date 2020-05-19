@@ -12,7 +12,7 @@ import NorthRollOut from '../components/sections/NorthRollOut';
 const Contact = () => {
   return (
     <>
-      <ContactHero />
+      <ContactHero className='illustration-section-01 reveal-from-right' />
       <ContactForm />
       <NorthRollOut />
     </>

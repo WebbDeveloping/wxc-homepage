@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       {/* <HeroNoImg className="illustration-section-01" /> */}
-      <Hero className='illustration-section-01' />
+      <Hero className='illustration-section-01 reveal-from-right' />
       <FeaturesTiles />
       {/* <FeaturesSplit
         invertMobile

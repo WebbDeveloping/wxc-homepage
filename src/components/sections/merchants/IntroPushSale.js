@@ -71,7 +71,7 @@ const IntroPushSale = ({
                 XPay makes the marketing pipe dream a reality!
               </p>
               <div className='reveal-from-bottom' data-reveal-delay='600'>
-                <div className='flex-row col-sm  m-0'>
+                <div className='flex-row col-sm  m-0 text-left'>
                   <h5 className=' m-24'>
                     Way back in the 90's, marketers dreamed of facilitating
                     transactions in an email so the customer didn't have to
