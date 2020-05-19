@@ -42,10 +42,7 @@ const AboutHero = ({
       <div className='container-sm'>
         <div className={innerClasses}>
           <div className='hero-content'>
-            <h1
-              className='mt-0 mb-16 reveal-from-bottom'
-              data-reveal-delay='200'
-            >
+            <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='200'>
               {' '}
               {title}
             </h1>

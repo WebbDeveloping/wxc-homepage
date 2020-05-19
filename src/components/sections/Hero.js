@@ -57,10 +57,7 @@ const Hero = ({
       <div className='container-sm'>
         <div className={innerClasses}>
           <div className='hero-content'>
-            <h1
-              className='mt-0 mb-16 reveal-from-bottom'
-              data-reveal-delay='200'
-            >
+            <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='200'>
               <span className='text-color-primary'>XPAY</span> is the new secure
               way to pay
             </h1>
@@ -75,7 +72,13 @@ const Hero = ({
               <div className='reveal-from-bottom' data-reveal-delay='600'>
                 <ButtonGroup>
                   {/* <Link to='/contact'> */}
-                  <Button tag='a' color='primary' wideMobile href='/contact'>
+                  <Button
+                    tag='a'
+                    color='primary'
+                    wideMobile
+                    href='/contact'
+                    className='reveal-from-left'
+                  >
                     Get started
                   </Button>
                   {/* </Link>
@@ -86,6 +89,7 @@ const Hero = ({
                       color='dark'
                       wideMobile
                       href='https://world-xchange.com/index.php'
+                      classNaame='reveal-from-right'
                     >
                       Learn More &#8594;
                     </Button>

@@ -59,7 +59,7 @@ const NewsReleases = ({
 
             <div className='tiles-item-row reveal-from-bottom'>
               <div className='tiles-item-inner-row col-sm-center'>
-                <div className='features-tiles-item-content text-left justify-content-col ml-24'>
+                <div className='features-tiles-item-content text-left justify-content-col ml-24 reveal-from-left'>
                   <h2 className='mt-0 mb-8 ta-c-mobile text-color-primary'>
                     Fraud-Proof Credit Card Payments a Reality
                   </h2>
@@ -72,7 +72,7 @@ const NewsReleases = ({
                 </div>
                 <br />
                 <br />
-                <div className='features-tiles-item-header pr-8'>
+                <div className='features-tiles-item-header pr-8 reveal-from-right'>
                   <div className='features-tiles-item-image-news mb-16'>
                     <Image
                       src={require('../../../assets/images/test-purchase-code.png')}
@@ -83,7 +83,7 @@ const NewsReleases = ({
                   </div>
                 </div>
               </div>
-              <div className='container text-left'>
+              <div className='container text-left reveal-from-bottom'>
                 <p>
                   Loveland, Colorado (April 15, 2019)--World XChange, Inc.
                   announces the first public peek of their fraud proof payment
@@ -236,7 +236,7 @@ const NewsReleases = ({
                   expand into Europe in 2020.
                 </p>
               </div>
-              <div className='container'>
+              <div className='container reveal-from-top'>
                 <div className='features-tiles-item-content text-left '>
                   <h2 className='mt-0 mb-8 ta-c-mobile text-color-primary'>
                     About World XChange Inc.

@@ -50,7 +50,7 @@ export default function ContactForm({
           <div className='flex-row-around col-sm'>
             {/* ADDRESS BOX */}
             <div
-              className='tiles-item reveal-from-right '
+              className='tiles-item reveal-from-left '
               data-reveal-delay='200'
             >
               <div className='tiles-item-inner center-content'>
@@ -120,20 +120,6 @@ export default function ContactForm({
                   <div className='flex-row'>
                     <div className='pr-16'>
                       <a href='https://www.linkedin.com/in/world-xchange-b7860416a/'>
-                        {/* <svg
-                          width='42'
-                          height='42'
-                          viewBox='0 0 16 16'
-                          xmlns='http://www.w3.org/2000/svg'
-                          fill='#0081ff'
-                        >
-                          <title>Linked-In</title>
-                          <g>
-                            <circle cx='12.145' cy='3.892' r='1' />
-                            <path d='M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z' />
-                            <path d='M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z' />
-                          </g>
-                        </svg> */}
                         <img
                           src={require('../../../assets/Svg/linkedin.svg')}
                           height={42}
