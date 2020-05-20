@@ -51,18 +51,21 @@ const NorthRollOut = ({
 
   return (
     <section {...props} className={outerClasses}>
-      <div className='container-sm'>
+      <br />
+      <br />
+      <br />
+      <div className='container bg-img-roll-out'>
         <div className={innerClasses}>
           <div className='hero-content'>
             <h1
-              className='mt-0 mb-16 reveal-from-bottom'
+              className='mt-0 mb-16 reveal-from-bottom '
               data-reveal-delay='200'
             >
               NORTH AMERICAN ROLLOUT
             </h1>
             <div className='container-xs'>
               <p
-                className='m-0 mb-32 reveal-from-bottom'
+                className='m-0 mb-32 reveal-from-bottom fw-700'
                 data-reveal-delay='400'
               >
                 World XPay began rolling out in North America in 2019. Early

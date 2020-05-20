@@ -24,14 +24,17 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 
   return (
     <footer {...props} className={classes}>
-      <div className='container'>
+      <br />
+      <br />
+      <br />
+      <div className='container footer-bg-img'>
         <div
           className={classNames(
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}
         >
-          <div className='footer-top space-between text-xxs'>
+          <div className='footer-top space-between text-xxs '>
             <div className='flex-row'>
               <Logo className='pr-16' />
               <div>

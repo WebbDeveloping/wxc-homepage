@@ -30,24 +30,25 @@ const ContactHero = ({
   );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
+    'hero-inner section-inner pt-0',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
 
   return (
     <section {...props} className={outerClasses}>
+      <br />
+      <br />
+      <br />
+      <br />
       <div className='container-sm'>
         <div className={innerClasses}>
           <div className='hero-content'>
-            <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='200'>
+            <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='100'>
               Get Started With <span className='text-color-primary'>XPAY</span>
             </h1>
             <div className='container-xs'>
-              <p
-                className='m-0 mb-32 reveal-from-bottom'
-                data-reveal-delay='400'
-              >
+              <p className='m-0 mb-32 reveal-from-top'>
                 Contact our professional sales team
               </p>
             </div>
