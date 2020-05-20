@@ -13,7 +13,10 @@ const Home = () => {
   return (
     <>
       {/* <Hero className='illustration-section-01 reveal-from-right' /> */}
-      <NewHeader />
+      <NewHeader
+        className={'new-header-home'}
+        textBox={'new-header__text-box-home'}
+      />
       <FeaturesTiles />
       <AppDemo invertMobile topDivider imageFill />
       <NorthRollOut />

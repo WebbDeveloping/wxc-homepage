@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import NewHeader from './partials/NewHeader';
 // import '../../assets/css/icons.css';
 
 const propTypes = {
@@ -55,7 +56,18 @@ const ConsumerTiles = ({
       <div className='container'>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className='center-content' />
-
+          <NewHeader
+            className={'new-header-consumer lg-hide'}
+            title={'A Better Way To Pay'}
+            // subheading={'when you know your purchase was safe, secure and private.'}
+            titleClass={'title-class'}
+            subClass={'subheading-class'}
+            textBox={'new-header__text-box'}
+          />
+          <br className='lg-hide' />
+          <br className='lg-hide' />
+          <br className='lg-hide' />
+          <br className='lg-hide' />
           <div className={tilesClasses}>
             <div className='tiles-item reveal-from-bottom'>
               <div className='tiles-item-inner'>

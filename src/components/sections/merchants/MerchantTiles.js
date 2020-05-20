@@ -4,6 +4,7 @@ import { SectionProps } from '../../../utils/SectionProps';
 import SectionHeader from '../partials/SectionHeader';
 
 import TileSection from './TileSection';
+import NewHeader from '../partials/NewHeader';
 
 const propTypes = {
   ...SectionProps.types
@@ -32,7 +33,8 @@ const MerchantTiles = ({
     tileTwoText,
     tileThreeText,
     title,
-    paragraph
+    paragraph,
+    heroImg
   } = props;
 
   const sectionHeader = {
@@ -60,6 +62,14 @@ const MerchantTiles = ({
       <div className='container-sm'>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className='center-content' />
+          <NewHeader
+            className={heroImg}
+            title={'A Better Way To Pay'}
+            textBox={'new-header__text-box'}
+            // subheading={'when you know your purchase was safe, secure and private.'}
+            titleClass={'title-class'}
+            subClass={'subheading-class'}
+          />
         </div>
       </div>
       <TileSection

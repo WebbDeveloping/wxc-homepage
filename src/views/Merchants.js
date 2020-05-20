@@ -6,12 +6,21 @@ import IntroPushSale from '../components/sections/merchants/IntroPushSale';
 import GuaranteedFraudProof from '../components/sections/merchants/GuaranteedFraudProof';
 import ProcessingFees from '../components/sections/merchants/ProcessingFees';
 import SimpleIntegration from '../components/sections/merchants/SimpleIntegration';
+import NewHeader from '../components/sections/partials/NewHeader';
 
 const Merchants = () => {
   return (
     <>
+      <NewHeader
+        className={'new-header-merchant sm-hide'}
+        textBox={'new-header__text-box'}
+        title={'Cashless Made Effortless'}
+        // subheading={'when you know your purchase was safe, secure and private.'}
+        titleClass={'title-class'}
+        subClass={'subheading-class'}
+      />
       <MerchantTiles
-        className='illustration-section-01 reveal-from-top'
+        className='reveal-from-top sm-pt-0'
         title={'Show You Care'}
         paragraph={'By providing your customers with a private way to pay.'}
         tileOneHead={'ACCEPT XPAY ONLINE'}
@@ -26,6 +35,7 @@ const Merchants = () => {
         tileThreeText={
           "Increase privacy and security while taking payments over the phone where the customer doesn't have to verbally read card information."
         }
+        heroImg={'new-header-merchant lg-hide'}
       />
       <SalesFunnel />
       <IntroPushSale />

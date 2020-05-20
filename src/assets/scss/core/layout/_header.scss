@@ -25,24 +25,80 @@
 ////
 //
 .new-header {
-  position: relative;
-  height: 65vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 129, 255, 0.3),
-      rgba(67, 138, 204, 0.3)
-    ),
-    url('../../../images/wxc/slides/slide_0.png');
-  //   url('../../../images/wxc/wxc-background.jpg');
-  background-size: cover;
-  background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+  &-home {
+    position: relative;
+    height: 65vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 129, 255, 0.3),
+        rgba(67, 138, 204, 0.3)
+      ),
+      url('../../../images/wxc/slides/slide_0.png');
+    //   url('../../../images/wxc/wxc-background.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+  }
+  &-consumer {
+    position: relative;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 129, 255, 0.3),
+        rgba(67, 138, 204, 0.3)
+      ),
+      url('../../../images/wxc/consumer.jpg');
+    background-size: cover;
+    background-position: left;
+  }
+  &-merchant {
+    position: relative;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 129, 255, 0.3),
+        rgba(67, 138, 204, 0.3)
+      ),
+      url('../../../images/wxc/merchants.jpg');
+    background-size: cover;
+    background-position: left;
+  }
+  &-acquirer {
+    position: relative;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 129, 255, 0.3),
+        rgba(67, 138, 204, 0.3)
+      ),
+      url('../../../images/acquirers.jpg');
+    background-size: cover;
+    background-position: left;
+  }
+  &-bankers {
+    position: relative;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 129, 255, 0.3),
+        rgba(67, 138, 204, 0.3)
+      ),
+      url('../../../images/bankers.jpg');
+    background-size: cover;
+    background-position: left;
+  }
 
   &__text-box {
     position: absolute;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    &-home {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
   &-primary {
     color: #fff;
@@ -53,6 +109,7 @@
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 10px;
+    line-height: 1.5;
   }
   &-primary-sub {
     display: block;
@@ -146,6 +203,12 @@
 }
 
 @include media('<=medium') {
+  .new-header__text-box {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .header-nav-toggle {
     display: block;
 
@@ -191,20 +254,6 @@
       }
     }
   }
-  //   .new-header {
-  //     position: relative;
-  //     height: 75vh;
-  //     background-image: linear-gradient(
-  //         to right bottom,
-  //         rgba(0, 129, 255, 0.3),
-  //         rgba(67, 138, 204, 0.3)
-  //       ),
-  //       url('../../../images/wxc/slides/slide_0.png');
-  //     //   url('../../../images/wxc/wxc-background.jpg');
-  //     background-size: cover;
-  //     background-position: top;
-  //     clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%) !important;
-  //   }
 }
 
 @include media('>medium') {

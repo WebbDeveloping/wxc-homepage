@@ -4,12 +4,21 @@ import GuaranteedFraudProof from '../components/sections/merchants/GuaranteedFra
 import ProcessingFees from '../components/sections/merchants/ProcessingFees';
 import SimpleIntegration from '../components/sections/merchants/SimpleIntegration';
 import BankerTiles from '../components/sections/bankers/BankerTiles';
+import NewHeader from '../components/sections/partials/NewHeader';
 
 const Bankers = () => {
   return (
     <>
+      <NewHeader
+        className={'new-header-bankers sm-hide'}
+        textBox={'new-header__text-box'}
+        title={'Cashless Made Effortless'}
+        // subheading={'when you know your purchase was safe, secure and private.'}
+        titleClass={'title-class'}
+        subClass={'subheading-class'}
+      />
       <BankerTiles
-        className='illustration-section-01 reveal-from-top'
+        className='reveal-from-top sm-pt-0'
         title={'Show You Care'}
         paragraph={'By providing your customers with a private way to pay.'}
         tileOneHead={'ACCEPT XPAY PAYMENTS ONLINE'}
