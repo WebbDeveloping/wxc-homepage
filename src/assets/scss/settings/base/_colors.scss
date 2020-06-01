@@ -13,7 +13,9 @@ $palette: (
 		2: #25282C,
 		3: #33363A,
 		4: #313131,
-		5:	#404040
+		5:	#404040,
+		6: #002448, //dark-blue from xbanc
+		7: #003366 // card bg color
 	),
 	primary: (
 		1: #6163FF,
@@ -24,7 +26,7 @@ $palette: (
 		6: #0081ff //blue-wxc
  	),
 	secondary: (
-		1: #24E5AF,
+		1: #ffa300,
 		2: #73EFCC,
 		3: #1CB68B,
 		4: #D2F9EE
@@ -46,7 +48,7 @@ $palette: (
 // Base typography: color
 $color: (
 	heading:				get-color(light, 1),
-	base: 					get-color(light, 2),
+	base: 					get-color(light, 1),
 	high-contrast: 			get-color(dark, 1),
 	mid-contrast: 			get-color(dark, 2),
 	low-contrast: 			get-color(dark, 3),
@@ -87,12 +89,12 @@ $icon--color: (
 
 // Misc elements: background color
 $bg--color: (
-	body: 			get-color(dark, 1),
+	body: 			get-color(dark, 6),
 	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
 	body-outer:		lighten(get-color(dark, 1), 2%),			// outer bg color when a boxed layout is used
 	bg-color: 		lighten(get-color(light, 1), 9%),			// .has-bg-color helper class
 	shadow: 		0 24px 64px rgba(get-color(dark, 1), .64),	// .has-shadow helper class
 	code: 			darken(get-color(dark, 1), 3%),
 	code-inverse:	darken(get-color(dark, 1), 3%),
-	nav-bar: get-color(dark, 1)
+	nav-bar: get-color(dark, 6)
 );

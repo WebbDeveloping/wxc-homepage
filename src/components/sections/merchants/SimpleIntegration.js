@@ -50,7 +50,7 @@ const SimpleIntegration = ({
       <div className='container'>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className='center-content' />
-          <div className='flex-row col-sm'>
+          <div className='flex-row-center col-sm'>
             <div
               className='tiles-item reveal-from-left'
               data-reveal-delay='200'
@@ -69,12 +69,12 @@ const SimpleIntegration = ({
                 <br />
                 <div className='flex-col text-left'>
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>1</h4>
+                    <h4 className='pr-12 text-color-secondary'>1</h4>
                     <p>They simply choose to pay with XPay.</p>
                   </div>
                   <br />
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>2</h4>
+                    <h4 className='pr-12 text-color-secondary'>2</h4>
                     <p>
                       A small popover then appears containing the XPay Purchase
                       Code.
@@ -82,7 +82,7 @@ const SimpleIntegration = ({
                   </div>
                   <br />
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>3</h4>
+                    <h4 className='pr-12 text-color-secondary'>3</h4>
                     <p>
                       Once the code is scanned and the customer approves the
                       purchase, the result is sent back to your web page.
@@ -110,7 +110,7 @@ const SimpleIntegration = ({
                 <br />
                 <div className='flex-col text-left'>
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>1</h4>
+                    <h4 className='pr-12 text-color-secondary'>1</h4>
                     <p>
                       {' '}
                       The quickest and easiest method is with an XPay kiosk. The
@@ -122,7 +122,7 @@ const SimpleIntegration = ({
                   </div>
                   <br />
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>2</h4>
+                    <h4 className='pr-12 text-color-secondary'>2</h4>
                     <p>
                       Deeper integration with your POS is also available with
                       most modern systems. Please contact us for details and
@@ -155,7 +155,7 @@ const SimpleIntegration = ({
                 <br />
                 <div className='flex-col text-left'>
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>1</h4>
+                    <h4 className='pr-12 text-color-secondary'>1</h4>
                     <p>
                       {' '}
                       Using your XPay business portal, simply enter a customer's
@@ -164,7 +164,7 @@ const SimpleIntegration = ({
                   </div>
                   <br />
                   <div className='flex-row-center'>
-                    <h4 className='pr-12 text-color-primary'>2</h4>
+                    <h4 className='pr-12 text-color-secondary'>2</h4>
                     <p>
                       If the customer does not already have the XPay app, they
                       can install it immediately. If they do, they will receive

@@ -48,7 +48,7 @@ const HeroNoImg = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Safe, Easy, <span className='text-color-primary'>Private</span>
+              Safe, Easy, <span className='text-color-secondary'>Private</span>
             </h1>
             <div className='container-xs'>
               <p

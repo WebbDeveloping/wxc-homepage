@@ -47,7 +47,7 @@ const IntroPushSale = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Introducing <span className='text-color-primary'>PUSH-SALE</span>
+              Introducing <span className='text-color-secondary'>PUSH-SALE</span>
             </h1>
             <div className='container-xss'>
               <p
@@ -57,7 +57,7 @@ const IntroPushSale = ({
                 XPay makes the marketing pipe dream a reality!
               </p>
               <div className='reveal-from-bottom' data-reveal-delay='600'>
-                <div className='flex-row col-sm  m-0 text-left'>
+                <div className='-center flex-row col-sm  m-0 text-left'>
                   <h5 className=' m-24'>
                     Way back in the 90's, marketers dreamed of facilitating
                     transactions in an email so the customer didn't have to
@@ -73,7 +73,7 @@ const IntroPushSale = ({
                     email marketing is nearly the same as old direct mail
                     conversion rates, between 1 and 3%. With a Push Sale, there
                     is only one action, one click and that click is{' '}
-                    <span className='text-color-primary'>PURCHASE</span>
+                    <span className='text-color-secondary'>PURCHASE</span>
                   </h5>
                 </div>
               </div>

@@ -94,7 +94,7 @@ const Article = ({
               data-reveal-delay='200'
             >
               HOW TO USE <br />
-              <span className='text-color-primary'>XPAY</span>
+              <span className='text-color-secondary'>XPAY</span>
             </h3>
           </div>
           <div
@@ -138,7 +138,7 @@ const Article = ({
               data-reveal-delay='200'
             >
               Add your checkout directly to{' '}
-              <span className='text-color-primary'>ANY EMAIL</span>
+              <span className='text-color-secondary'>ANY EMAIL</span>
             </h3>
           </div>
           <br />
@@ -154,7 +154,7 @@ const Article = ({
               className='mb-8 mb-16 reveal-from-bottom fs-50 lh-60'
               data-reveal-delay='200'
             >
-              <span className='text-color-primary'>Your Business Card</span> is
+              <span className='text-color-secondary'>Your Business Card</span> is
               now your POS
             </h3>
           </div>
@@ -199,7 +199,7 @@ const Article = ({
               className='mt-0 mb-16 reveal-from-bottom fs-50 lh-60'
               data-reveal-delay='200'
             >
-              Now <span className='text-color-primary'>SOCIAL MEDIA,</span> is
+              Now <span className='text-color-secondary'>SOCIAL MEDIA,</span> is
               even easier.
             </h3>
           </div>
@@ -218,7 +218,7 @@ const Article = ({
               data-reveal-delay='200'
             >
               Place An Order{' '}
-              <span className='text-color-primary'>FROM ANY TV</span>
+              <span className='text-color-secondary'>FROM ANY TV</span>
             </h3>
           </div>
           <br />
@@ -265,7 +265,7 @@ const Article = ({
             >
               Welcome to
             </h3>
-            <h1 className='text-color-primary mt-0 pt-0'>XPAY</h1>
+            <h1 className='text-color-secondary mt-0 pt-0'>XPAY</h1>
           </div>
           <br />
         </div>

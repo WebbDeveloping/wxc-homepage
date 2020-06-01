@@ -45,7 +45,7 @@ const ContactHero = ({
         <div className={innerClasses}>
           <div className='hero-content'>
             <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='100'>
-              Get Started With <span className='text-color-primary'>XPAY</span>
+              Get Started With <span className='text-color-secondary'>XPAY</span>
             </h1>
             <div className='container-xs'>
               <p className='m-0 mb-32 reveal-from-top'>

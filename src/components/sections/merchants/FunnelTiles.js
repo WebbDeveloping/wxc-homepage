@@ -31,7 +31,7 @@ const FunnelTiles = ({
     <section {...props}>
       <div className='container'>
         <div className={innerClasses}>
-          <div className='flex-row col-sm'>
+          <div className='flex-row-center col-sm'>
             <div className='tiles-item reveal-from-bottom'>
               <div className='tiles-item-inner'>
                 <div className='features-tiles-item-header'>

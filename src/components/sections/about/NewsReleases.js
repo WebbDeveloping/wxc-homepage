@@ -60,7 +60,7 @@ const NewsReleases = ({
             <div className='tiles-item-row reveal-from-bottom'>
               <div className='tiles-item-inner-row col-sm-center'>
                 <div className='features-tiles-item-content text-left justify-content-col ml-24 reveal-from-left'>
-                  <h2 className='mt-0 mb-8 ta-c-mobile text-color-primary'>
+                  <h2 className='mt-0 mb-8 ta-c-mobile text-color-secondary'>
                     Fraud-Proof Credit Card Payments a Reality
                   </h2>
                   <div className='m-0 text-sm ta-c-mobile'>
@@ -238,7 +238,7 @@ const NewsReleases = ({
               </div>
               <div className='container reveal-from-top'>
                 <div className='features-tiles-item-content text-left '>
-                  <h2 className='mt-0 mb-8 ta-c-mobile text-color-primary'>
+                  <h2 className='mt-0 mb-8 ta-c-mobile text-color-secondary'>
                     About World XChange Inc.
                   </h2>
                   <div className='m-0 text-sm text-left'>

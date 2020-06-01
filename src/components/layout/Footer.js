@@ -24,9 +24,6 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 
   return (
     <footer {...props} className={classes}>
-      <br />
-      <br />
-      <br />
       <div className='container footer-bg-img'>
         <div
           className={classNames(

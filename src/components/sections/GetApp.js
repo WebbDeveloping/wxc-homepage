@@ -58,7 +58,7 @@ const GetApp = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              Download our <span className='text-color-primary'>APP!</span>
+              Download our <span className='text-color-secondary'>APP!</span>
             </h1>
             <div className='container-xs'>
               <p

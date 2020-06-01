@@ -58,7 +58,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className='hero-content'>
             <h1 className='mt-0 mb-16 reveal-from-top' data-reveal-delay='200'>
-              <span className='text-color-primary'>XPAY</span> is the new secure
+              <span className='text-color-secondary'>XPAY</span> is the new secure
               way to pay
             </h1>
             <div className='container-xs'>

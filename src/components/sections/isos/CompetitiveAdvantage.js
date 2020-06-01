@@ -61,13 +61,13 @@ const CompetitiveAdvantage = ({
           <div className='reveal-from-bottom text-left' data-reveal-delay='600'>
             <div className='flex-row col-sm  m-0'>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>PROCESSING RATES</span> -
+                <span className='text-color-secondary'>PROCESSING RATES</span> -
                 Competing on processing rates alone does not provide a
                 sufficient competitive advantage since industry rates are nearly
                 identical.
               </h5>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>SERVICE</span> - Claims of
+                <span className='text-color-secondary'>SERVICE</span> - Claims of
                 superior service, even when true, isn't generally enough to
                 attract new clients since your compeitors all claim the same
                 thing.
@@ -75,13 +75,13 @@ const CompetitiveAdvantage = ({
             </div>
             <div className='flex-row col-sm  m-0'>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>SETUP AND FEES</span> -
+                <span className='text-color-secondary'>SETUP AND FEES</span> -
                 Similar to processing rates, while there is slight variation in
                 the industry, this also isn't substantial enough to create a
                 competitive advantage.
               </h5>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>APPROVALS</span> - Unless
+                <span className='text-color-secondary'>APPROVALS</span> - Unless
                 you do your own underwriting, you're subject to the rules of
                 your acquirer/bank and since all banks operate under the same
                 regulations, this too is a non-advantage.
@@ -100,13 +100,13 @@ const CompetitiveAdvantage = ({
           <div className='reveal-from-bottom text-left' data-reveal-delay='600'>
             <div className='flex-row col-sm  m-0'>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>FRAUD-PROOF</span> - A
+                <span className='text-color-secondary'>FRAUD-PROOF</span> - A
                 guarantee no other competitor can claim and is important enough
                 for merchants to seek after and change their processing to
                 obtain.
               </h5>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>NO PCI REQUIREMENTS</span>{' '}
+                <span className='text-color-secondary'>NO PCI REQUIREMENTS</span>{' '}
                 - A technology so robust, merchant PCI requirements consists of
                 answering only two questions. Certainly an advantage worth
                 changing merchant processors.
@@ -114,13 +114,13 @@ const CompetitiveAdvantage = ({
             </div>
             <div className='flex-row col-sm  m-0'>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>CHARGEBACK REDUCTION</span>
+                <span className='text-color-secondary'>CHARGEBACK REDUCTION</span>
                 - For merchants who are plagued with high chargebacks, the
                 ability to reduce that burden is paramount. Any merchant
                 processor with this ability will certainly attract clients.
               </h5>
               <h5 className=' m-24'>
-                <span className='text-color-primary'>MARKETING TOOLS</span> -
+                <span className='text-color-secondary'>MARKETING TOOLS</span> -
                 Nearly every merchant is looking for ways to grow their
                 business. How many new clients could you win if you offered a
                 platform that could revolutionize a merchant's marketing?

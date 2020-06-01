@@ -47,7 +47,7 @@ const Founders = ({
           data-reveal-delay='200'
         >
           <div className='tiles-item-inner'>
-            <h2 className='reveal-from-bottom text-color-primary'>
+            <h2 className='reveal-from-bottom text-color-secondary'>
               Founders and Officers
             </h2>
             <br />

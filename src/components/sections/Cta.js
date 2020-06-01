@@ -46,7 +46,7 @@ const Cta = ({
       <div className='container'>
         <div className={innerClasses}>
           <div className='cta-slogan'>
-            <h3 className='m-0 text-color-primary'>Get Started With XPAY</h3>
+            <h3 className='m-0 text-color-secondary'>Get Started With XPAY</h3>
           </div>
           <div className='cta-action'>
             <Input

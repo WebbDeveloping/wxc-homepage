@@ -56,7 +56,7 @@ const ProcessingFees = ({
               className='mt-0 mb-16 reveal-from-bottom'
               data-reveal-delay='200'
             >
-              <span className='text-color-primary'>Save</span> on processing
+              <span className='text-color-secondary'>Save</span> on processing
               fees,
             </h1>
             <div className='container-xss '>
@@ -70,8 +70,8 @@ const ProcessingFees = ({
                 <div className='flex-row col-sm  m-0'>
                   <h5 className=' m-24'>
                     Use XPay with your existing processing <br /> <br />
-                    <span className='fs-50 text-color-primary'>.05%</span>
-                    <span className='fs-16 pb-4 text-color-primary'>
+                    <span className='fs-50 text-color-secondary'>.05%</span>
+                    <span className='fs-16 pb-4 text-color-secondary'>
                       {' '}
                       + $0.05
                     </span>{' '}
@@ -82,8 +82,8 @@ const ProcessingFees = ({
                     Use XPay for all your processing
                     <br />
                     <br />
-                    <span className='fs-50 text-color-primary'>2.9%</span>
-                    <span className='fs-16 pb-4 text-color-primary'>
+                    <span className='fs-50 text-color-secondary'>2.9%</span>
+                    <span className='fs-16 pb-4 text-color-secondary'>
                       {' '}
                       + $0.30
                     </span>
@@ -98,7 +98,7 @@ const ProcessingFees = ({
             <br />
             <br />
             <p>
-              <span className='text-color-primary'>*Learn More</span>
+              <span className='text-color-secondary'>*Learn More</span>
             </p>
             <p>Processing fees subject to change.</p>
           </div>

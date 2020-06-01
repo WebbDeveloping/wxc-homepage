@@ -1,6 +1,6 @@
 .testimonial {
   .tiles-item-inner {
-    background: get-color(dark, 2);
+    background: get-color(dark, 7);
   }
   .tiles-item-contact {
     max-width: 500px !important;
@@ -44,10 +44,10 @@
 }
 
 .testimonial-item-link {
-  color: get-color(primary, 6);
+  color: get-color(secondary, 1);
 
   a {
-    color: get-color(primary, 6);
+    color: get-color(secondary, 1);
     text-decoration: none;
 
     &:hover {

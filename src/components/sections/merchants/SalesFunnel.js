@@ -82,7 +82,7 @@ const SalesFunnel = ({
                   </div>
                 </div>
                 <div className='features-tiles-item-content text-left justify-content-col ml-24'>
-                  <h4 className='mt-0 mb-8 ta-c-mobile text-color-primary'>
+                  <h4 className='mt-0 mb-8 ta-c-mobile text-color-secondary'>
                     Sales Funnel
                   </h4>
                   <p className='m-0 text-sm ta-c-mobile'>
@@ -107,7 +107,7 @@ const SalesFunnel = ({
                     this is where your products are displayed and where the
                     checkout is. With XPay, your checkout is in the palm of
                     everyone's hand and{' '}
-                    <span className='text-color-primary'>
+                    <span className='text-color-secondary'>
                       your product can be everywhere!
                     </span>
                   </p>
